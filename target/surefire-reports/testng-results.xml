@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-23T13:17:00 IST" name="Suite" finished-at="2024-08-23T13:17:36 IST" duration-ms="36025">
+    <groups>
+      <group name="purchase">
+        <method signature="TestExecution.test(java.util.HashMap)[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" name="test" class="seleniumTutorial.TestExecution.TestExecution"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2024-08-23T13:17:00 IST" name="Test" finished-at="2024-08-23T13:17:36 IST" duration-ms="35984">
+      <class name="seleniumTutorial.TestExecution.TestExecution">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:00 IST" name="launchApplication" finished-at="2024-08-23T13:17:04 IST" duration-ms="3961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:04 IST" name="test" data-provider="getData" finished-at="2024-08-23T13:17:19 IST" duration-ms="14658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Test@12345, product=ZARA COAT 3, email=dev@dev.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:19 IST" name="finishTest" finished-at="2024-08-23T13:17:19 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:19 IST" name="launchApplication" finished-at="2024-08-23T13:17:21 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test(java.util.HashMap)[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:21 IST" name="test" data-provider="getData" finished-at="2024-08-23T13:17:35 IST" duration-ms="14329" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pass=Test@12345, product=ZARA COAT 3, email=dev@dev.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="finishTest()[pri:0, instance:seleniumTutorial.TestExecution.TestExecution@2e005c4b]" started-at="2024-08-23T13:17:35 IST" name="finishTest" finished-at="2024-08-23T13:17:36 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishTest -->
+      </class> <!-- seleniumTutorial.TestExecution.TestExecution -->
+    </test> <!-- Test -->
+    <test started-at="2024-08-23T13:17:36 IST" name="Test 1" finished-at="2024-08-23T13:17:36 IST" duration-ms="1">
+    </test> <!-- Test 1 -->
+  </suite> <!-- Suite -->
+</testng-results>
