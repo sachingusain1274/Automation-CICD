@@ -16,6 +16,7 @@ import org.testng.annotations.Test;
 
 public class TestExecution extends BaseTest{
 	
+	// new comment added for cicd purpose
 	
 	@Test(dataProvider = "getData" , groups = "purchase")
 	public void test(HashMap<String, String> data) throws InterruptedException, IOException
